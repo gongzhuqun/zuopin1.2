@@ -1,0 +1,283 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+input,img{
+	border: none;
+}
+ul,li,ol{
+	list-style-type: none;
+}
+body{
+	min-width: 1220px;
+}
+.clear{
+	clear: both;
+	font-size: 0;
+	height: 0;
+	overflow: hidden;
+}
+/*头部开始*/
+
+.hg{
+	width: 100%;
+	height: auto;
+	background: #4c95f4;
+}
+.hg .header{
+	width: 1220px;
+	height: 207px;
+	margin: 0 auto;
+}
+
+/*头部左边开始*/
+
+.hg .header .h-l{
+	float: left;
+	margin-top: 60px;
+	margin-left: 100px;
+}
+.hg .header .h-l a{
+	float: left;
+	margin-right: 72px;
+}
+.hg .header .h-l li{
+	float: left;
+}
+.hg .header .h-l .h-l-z{
+	width: 3px;
+	height: 64px;
+	background: #7db0f2;
+	margin-top: 9px;
+}
+.hg .header .h-l .h-l-r{
+	margin-left: 67px;
+	line-height: 84px;
+  font-size: 35px;
+  font-family: "SimHei";
+  color: #ededed;
+}
+/*头部左边结束*/
+
+/*头部右边开始*/
+.hg .h-r{
+	float: right;
+  font-size: 20px;
+  font-family: "Microsoft YaHei","微软雅黑";
+  color: #FFFFFF;
+	margin-top: 93px;
+	margin-right: 99px;
+}
+.hg a.h-r:hover{
+	text-decoration: underline;
+}
+/*头部右边结束*/
+/*头部结束*/
+
+/*中间开始*/
+
+.min{
+	width: 1220px;
+	margin: 0 auto;
+}
+.min .min-m{
+	width: 1020px;
+	margin: 0 auto;
+}
+
+/*表单头部开始*/
+
+.min .min-m .min-m-t{
+	height: 145px;
+	background: #ededed;
+	margin-top: 172px;
+}
+.min .min-m .min-m-t p{
+  font-size: 25px;
+  font-family: "SimHei","黑体";
+  color: #3a3a3a;
+  line-height: 145px;
+  text-align: center;
+}
+/*表单头部结束*/
+
+/*表单中间开始*/
+.min .min-m .min-m-z{
+	margin-top: 2px;
+	background: #ededed;
+}
+.min .min-m .min-m-z form{
+	padding-top: 117px;
+	padding-left: 247px;
+}
+.min .min-m .min-m-z form li{
+	position: relative;
+	margin-bottom: 40px;
+}
+.min .min-m .min-m-z form li img{
+	position: absolute;
+	top: 13px;
+	left: 20px;
+}
+p{
+    font-size: 20px;
+    font-family: "SimSun","宋体";
+    color: #ededed;
+	padding-left: 30px;
+	padding-top: 9px;
+}
+.none{
+	color: #fb0000;
+}
+.min .min-m .min-m-z form li input{
+	width: 530px;
+	height: 70px;
+	background: none;
+	border: 1px solid #7d7d7d;
+  font-size: 25px;
+  font-family: "SimHei","黑体";
+  line-height: 70px;
+  color: #b6b6b6;
+  text-indent: 87px;
+}
+.min .min-m .min-m-z form li img.sj{
+	top: 9px;
+}
+.min .min-m .min-m-z form li a{
+	position: absolute;
+  font-size: 18px;
+  font-family: "SimHei","黑体";
+  color: #829bbc;
+	top: 77px;
+	right: 256px;
+}
+.min .min-m .min-m-z form li a:hover{
+	text-decoration: underline;
+}
+.min .min-m .min-m-z form li input.rzm{
+	width: 308px;
+	height: 70px;
+	text-indent: 22px;
+}
+.min .min-m .min-m-z form li img.rzmg{
+	left: 378px;
+	top: -4px;
+	cursor: pointer;
+}
+.min .min-m .min-m-z form li.zc{
+	margin-top: 61px;
+	padding-bottom: 179px;
+	margin-bottom:0;
+}
+.min .min-m .min-m-z form li.zc input{
+	height: 99px;
+	background: #4c95f4;
+	border-radius: 21px;
+	text-indent:18px;
+  font-size: 30px;
+  font-family: "SimHei","黑体";
+  color: #FFFFFF;
+  font-weight: bold;
+  letter-spacing: 18px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.min .min-m .min-m-z form li.zc span{
+	display: block;
+  font-size: 15px;
+  font-family: "SimHei";
+  padding-left: 9px;
+  padding-top: 25px;
+  color: #b6b6b6;
+  font-weight: bold;
+}
+.min .min-m .min-m-z form li.zc a{
+     top: 124px;
+	 font-size: 15px;
+	 font-family: "SimHei";
+	 font-weight: bold;
+	 right: 238px;
+	 color: #4c95f4;
+}
+
+/*表单中间结束*/
+/*中间结束*/
+
+/*尾部开始*/
+/*尾部上方开始*/
+.fg{
+	width: 100%;
+	height: auto;
+	margin-top: 110px;
+}
+.fg .footer{
+	width: 1220px;
+	height: 23px;
+	margin: 0 auto;
+	  font-family: "SimSun","宋体";
+}
+.fg .footer a:hover{
+	text-decoration: underline;
+}
+.fg .footer .fs{
+	margin-left: 832px;
+}
+.fg .footer .fs a{
+  font-size: 14px;
+  color: #575757;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+.fg .footer .fs a.fs-1{
+	margin-left: 0;
+}
+.fg .footer .fs span{
+	font-size: 15px;
+	color: #a3a3a3;
+}
+/*尾部上方结束*/
+
+/*尾部下方开始*/
+.fg2{
+	width: 100%;
+	height: auto;
+	background: #d9d9d9;
+}
+.fg2 .footer2{
+	width: 1220px;
+	height: 116px;
+	margin: 0 auto;
+	font-family: "SimSun","宋体";
+}
+.fg2 .footer2 .f2-w{
+	padding-left: 98px;
+	padding-top: 60px;
+}
+.fg2 .footer2 .f2-w a{
+	font-size: 14px;
+	color: #575757;
+	margin-left: 19px;
+	margin-right: 19px;
+}
+.fg2 .footer2 .f2-w a:hover{
+	text-decoration: underline;
+}
+.fg2 .footer2 .f2-w a.f2-w1{
+	margin-left: 0;
+}
+.fg2 .footer2 .f2-w span{
+	font-size: 13px;
+	color: #9a9a9a;
+}
+.fg2 .footer2 .f2-w p{
+	padding-top: 10px;
+	padding-left: 0;
+	color: #575757;
+	font-size: 12px;
+}
+/*尾部下方结束*/
+/*尾部结束*/
